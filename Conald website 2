@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Barigye Conald | Personal Website</title>
+<link rel="stylesheet" href="style.css">
+<style>
+body{font-family:Arial,Helvetica,sans-serif;margin:0;background:#f4f4f9;color:#333}
+header{background:#003366;color:#fff;padding:20px;text-align:center}
+.profile{display:flex;justify-content:center;align-items:center;flex-wrap:wrap;margin-top:10px}
+.profile img{width:120px;height:140px;border-radius:10px;margin-right:15px;object-fit:cover;border:3px solid #fff}
+.details h1{margin:0;font-size:24px}
+.details p{margin:2px 0}
+nav{margin-top:10px}
+nav a{color:#ffcc00;text-decoration:none;margin:0 10px;font-weight:bold}
+nav a:hover{text-decoration:underline}
+main{padding:20px}
+section{background:#fff;margin-bottom:20px;padding:15px;border-radius:8px;box-shadow:0 0 5px rgba(0,0,0,0.1)}
+h2{color:#003366}
+ul{list-style-type:square;padding-left:20px}
+footer{text-align:center;background:#003366;color:#fff;padding:10px;font-size:14px}
+@media(max-width:600px){.profile{flex-direction:column}.profile img{margin-bottom:10px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="profile">
+    <img src="profile.jpg" alt="Barigye Conald Photo">
+    <div class="details">
+      <h1>Barigye Conald</h1>
+      <p>B.L.I.S Student at COCIS</p>
+      <p>Reg No: 2300700357</p>
+      <p>Student No: 23/U/0357</p>
+    </div>
+  </div>
+  <nav>
+    <a href="#schools">Schools</a>
+    <a href="#work">Work Experience</a>
+    <a href="#hobbies">Hobbies</a>
+  </nav>
+</header>
+
+<main>
+  <section id="schools">
+    <h2>Schools Attended</h2>
+    <ul>
+      <li>2005 – Ntungamo Parents Primary School</li>
+      <li>2012 – Bwindi Watoto School</li>
+      <li>2016 – Bishop Comboni College Kambuga</li>
+      <li>2020 – St. Mary’s College Rushoroza</li>
+      <li>2023 – Makerere University</li>
+    </ul>
+  </section>
+
+  <section id="work">
+    <h2>Work Experience</h2>
+    <p><strong>Library Assistant</strong><br><em>Bishop Comboni Library, Kanungu District</em></p>
+    <ul>
+      <li>Provided research assistance and information services to patrons, answering queries and directing users to relevant resources.</li>
+      <li>Conducted library orientation and information literacy training for students and other library users.</li>
+      <li>Assisted in cataloging, classification, and maintenance of library collections.</li>
+      <li>Participated in collection development and weeding activities.</li>
+    </ul>
+  </section>
+
+  <section id="hobbies">
+    <h2>Hobbies</h2>
+    <ul>
+      <li>Playing and watching football</li>
+      <li>Listening to music</li>
+    </ul>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2025 Barigye Conald | Makerere University | BLS3122 Practice</p>
+</footer>
+</body>
+</html>
+new website with my photo 
